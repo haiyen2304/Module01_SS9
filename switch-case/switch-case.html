@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+
+        //         let soTraiCay = 2;
+        //         let tenTraiCay;
+
+        // switch (soTraiCay) {
+        //     case 1:
+        //         tenTraiCay = "Táo";
+        //         break;
+        //     case 2:
+        //         tenTraiCay = "Cam";
+        //         break;
+        //     case 3:
+        //         tenTraiCay = "Chuối";
+        //         break;
+        //     case 4:
+        //         tenTraiCay = "Nho";
+        //         break;
+        //     default:
+        //         tenTraiCay = "Không có loại trái cây này";
+        // }
+
+        // console.log(tenTraiCay); // Kết quả: Cam
+        //</script> -->
+    <!-- <script>
+        let thang = +prompt("hay nhập tháng vào");
+        let songay;
+         switch (thang) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                alert("tháng " + thang + " có 31 ngày");
+                break;
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                alert("tháng " + thang + " có 30 ngày");
+                break;
+            case 2:
+                alert("tháng " + thang + " có 29 ngày");
+                break;
+        }
+    </script> -->
+    <!-- <script>
+        let a = +prompt("hãy nhập số a vào");
+        let c = prompt("hãy nhập dấu phép tính");
+        let b = +prompt("hãy nhập số b vào");
+        switch (c) {
+            case ("+"):
+                console.log(a + b);
+                break;
+            case ("-"):
+                console.log(a - b);
+                break;
+            case ("*"):
+                console.log(a * b);
+                break;
+            case ("/"):
+                console.log(a / b);
+                break;
+        }
+    </script> -->
+    <!-- <script>
+        let thang = + prompt("hãy nhập tháng sinh của bạn vào")
+        let ngay = + prompt("hãy nhập ngày sinh của bạn vào ")
+        let cung
+
+        switch (thang) {
+            case 2:
+                if (ngay < 19) {
+                    console.log("cung bảo bình")
+                }
+                else { console.log("cung song ngư"); }
+                break;
+            case 3:
+                if (ngay < 21) {
+                    console.log("cung song ngư")
+                }
+                else { console.log("cung kim ngưu"); }
+                break;
+            case 4:
+                if (ngay < 20) {
+                    console.log("cung bạch dương")
+                }
+                else { console.log("cung kim ngưu"); }
+                break;
+            case 5:
+                if (ngay < 21) {
+                    console.log("cung kim ngưu")
+                }
+                else { console.log("cung song tử"); }
+                break;
+            case 6:
+                if (ngay < 22) {
+                    console.log("cung song tử")
+                }
+                else { console.log("cung cự giải"); }
+                break;
+            case 7:
+                if (ngay < 23) {
+                    console.log("cung cự giải")
+                }
+                else { console.log("cung xử nữ"); }
+                break;
+            case 8:
+                if (ngay < 23) {
+                    console.log("cung xử nữ")
+                }
+                else { console.log("cung thiên bình"); }
+                break;
+            case 9:
+                if (ngay < 23) {
+                    console.log("cung thiên bình")
+                }
+                else { console.log("cung hổ cáp"); }
+                break;
+            case 10:
+                if (ngay < 24) {
+                    console.log("cung hổ cáp")
+                }
+                else { console.log("cung nhân mã"); }
+                break;
+            case 11:
+                if (ngay < 22) {
+                    console.log("cung nhân mã")
+                }
+                else { console.log("cung ma kết "); }
+                break;
+            case 12:
+                if (ngay < 22) {
+                    console.log("cung ma kết")
+                }
+                else { console.log("cung bảo bình"); }
+                break;
+        }
+    </script> -->
+</body>
+
+</html>
+
+
+
+<!-- Giải thích từng bước:
+
+`Khởi tạo số trái cây: let soTraiCay = 2; có nghĩa là bạn đang kiểm tra số 2 để xem nó tương ứng với trái cây nào.
+Khởi tạo biến tên trái cây: let tenTraiCay; để lưu tên trái cây tương ứng với số đã chọn.
+Sử dụng switch để kiểm tra số trái cây: switch (soTraiCay) { ... } bắt đầu kiểm tra số trái cây.
+Các trường hợp (case):
+case 1: tenTraiCay = "Táo"; break; - Nếu số là 1, tên trái cây sẽ là "Táo".
+case 2: tenTraiCay = "Cam"; break; - Nếu số là 2, tên trái cây sẽ là "Cam".
+case 3: tenTraiCay = "Chuối"; break; - Nếu số là 3, tên trái cây sẽ là "Chuối".
+case 4: tenTraiCay = "Nho"; break; - Nếu số là 4, tên trái cây sẽ là "Nho".
+Trường hợp mặc định (default): Nếu số không khớp với bất kỳ case nào, nó sẽ là "Không có loại trái cây này".
+In kết quả: console.log(tenTraiCay); in ra tên trái cây tương ứng. Trong trường hợp này, kết quả là "Cam" vì số 2 khớp
+với case 2.
+Hy vọng ví dụ này giúp bạn hiểu rõ hơn về cách sử dụng switch trong JavaScript để kiểm tra và đưa ra kết quả dựa trên số
+liệu đầu vào.` -->
